@@ -5,7 +5,7 @@ Trabalho da disciplina **COS360 — Otimização (UFRJ)** aplicado à cadeia amp
 - **Climática:** pesos via kernel Gaussiano 11D sobre anomalias regionais de temperatura, pluviosidade e índice ONI (defasagem de 8 meses).
 
 ## Estrutura
-- `cos360_portfolio_optimization.ipynb`: notebook principal com formulação, derivadas analíticas, caminho central (Newton, BFGS e Gradiente), validação KKT/SLSQP e backtest 2025.
+- `cos360_portfolio_optimization.ipynb`: relatório do trabalho e notebook principal com formulação, derivadas analíticas, caminho central (Newton, BFGS e Gradiente), validação KKT/SLSQP e backtest 2025. 
 - `src/`: módulos auxiliares (`data_loader.py`, `barrier_solvers.py`, `backtest.py`, `run_experiments.py`).
 - `dados_ceres.xlsx` e `data/`: dados históricos (2015–2024) e cache de retornos de 2025.
 - `apresentacao_cos360.tex` e `outputs/`: slides Beamer e figuras geradas.
